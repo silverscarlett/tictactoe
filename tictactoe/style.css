@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkslateblue;
+    color: lightgray;
+    font-family: 'Anton', sans-serif;
+}
+
+.box {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 4px;
+    font-size: 80px;
+    line-height: 150px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+#reset-game {
+    background-color: lightgray;
+    color: darkslateblue;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
